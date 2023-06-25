@@ -1450,7 +1450,7 @@ function hexToRgb(hex){
   // By Tim Down - http://stackoverflow.com/a/5624139/3493650
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
   var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-  hex = hex.replace(shorthandRegex, function(m, r, g, b) {
+  hex = hex?.replace(shorthandRegex, function(m, r, g, b) {
      return r + r + g + g + b + b;
   });
   var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -1495,7 +1495,7 @@ window.particlesJS = function(tag_id, params){
       exist_canvas = pJS_tag?.getElementsByClassName(pJS_canvas_class);
 
   /* remove canvas if exists into the pJS target tag */
-  if(exist_canvas.length){
+  if(exist_canvas?.length){
     while(exist_canvas.length > 0){
       pJS_tag.removeChild(exist_canvas[0]);
     }
