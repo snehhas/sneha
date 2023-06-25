@@ -16,7 +16,7 @@ const Home = () => {
                       <h1 className="cd-headline clip is-full-width">
                         <span
                           className="cd-words-wrapper"
-                          style={{ width: "266px", overflow: "hidden" }}
+                          style={{ width: "266px", overflow: "auto" }}
                         >
                           <b className="is-hidden">Sneha Sunny</b>
                           <b className="is-hidden">Full Stack Developer</b>
@@ -82,8 +82,6 @@ const Home = () => {
           <div className="parallax" data-velocity="-.1"></div>
           <div className="parallax" data-velocity="-.5" data-fit="525"></div>
         </div>
-
-        {/* <!-- ================================ ABOUT =============================== --> */}
 
         <div id="about">
           <div className="about-content">
@@ -259,8 +257,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <!-- ================================ Skill =============================== --> */}
-
         <div id="skill">
           <div className="skill-main">
             <div className="container">
@@ -320,8 +316,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* <!-- ================================ RESUME =============================== --> */}
 
         <div id="resume">
           <div className="resume-content">
