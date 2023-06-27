@@ -67,7 +67,7 @@ body {
   background-color: transparent;
   height: 75px;
   border-bottom: none;
-  overflow: auto;
+  overflow: hidden;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -250,7 +250,7 @@ body {
   width: 100% !important;
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
 }
 section:nth-of-type(2) {
@@ -1160,12 +1160,12 @@ section:nth-of-type(2) {
   margin-right: 0%;
   display: none;
   float: left;
-  overflow: auto;
+  overflow: hidden;
   margin-bottom: 0%;
 }
 
 .portfolio-wrapper {
-  overflow: auto;
+  overflow: hidden;
   position: relative !important;
   background: #666;
 }
@@ -1213,7 +1213,7 @@ section:nth-of-type(2) {
 .row:after {
   content: "\0020";
   display: block;
-  overflow: auto;
+  overflow: hidden;
   visibility: hidden;
   width: 0;
   height: 0;
@@ -1230,7 +1230,7 @@ section:nth-of-type(2) {
 .clear {
   clear: both;
   display: block;
-  overflow: auto;
+  overflow: hidden;
   visibility: hidden;
   width: 0;
   height: 0;
@@ -1288,7 +1288,7 @@ section:nth-of-type(2) {
 }
 
 .fancybox-inner {
-  overflow: auto
+  overflow: hidden;
 }
 
 .fancybox-type-iframe .fancybox-inner {
@@ -1423,7 +1423,7 @@ section:nth-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
-  overflow: auto;
+  overflow: hidden;
   display: none;
   z-index: 8010;
   background: url("../fancybox_overlay.html");
@@ -1653,7 +1653,7 @@ section:nth-of-type(2) {
   position: fixed;
   left: 0;
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
   z-index: 8050;
 }
 
@@ -1691,7 +1691,7 @@ section:nth-of-type(2) {
 #fancybox-thumbs ul li a {
   display: block;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
   border: 1px solid #222;
   background: #111;
   outline: none;
@@ -2443,7 +2443,7 @@ blockquote {
     margin-right: 1%;
     display: none;
     float: left;
-    overflow: auto;
+    overflow: hidden;
     margin-bottom: 1%;
   }
 }
@@ -2568,7 +2568,7 @@ blockquote {
     margin-right: 0%;
     display: none;
     float: left;
-    overflow: auto;
+    overflow: hidden;
     margin-bottom: 1%;
   }
   .work-counter {
